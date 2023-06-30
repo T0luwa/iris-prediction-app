@@ -6,7 +6,7 @@ from PIL import Image
 image = Image.open("iris.webp")
 #image = Image.open("/Users/test/Downloads/iris.webp") to show image offline
 st.image(image, width = 350)
-iris_data = pickle.load(open('/Users/test/Downloads/randomforest.sav', 'rb'))
+iris_data = pickle.load(open('randomforest.sav', 'rb'))
 
 st.title('Iris Data prediction app')
 
